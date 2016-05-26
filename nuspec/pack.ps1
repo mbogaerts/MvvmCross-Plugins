@@ -11,6 +11,7 @@ Set-Alias nuget $targetNugetExe -Scope Global -Verbose
 del *.nupkg
 
 nuget pack MvvmCross.Plugin.Accelerometer.nuspec -Symbols
+nuget pack MvvmCross.Plugin.BarcodeScanner.nuspec -Symbols
 nuget pack MvvmCross.Plugin.All.nuspec -Symbols
 nuget pack MvvmCross.Plugin.Bookmarks.nuspec -Symbols
 nuget pack MvvmCross.Plugin.Color.nuspec -Symbols
